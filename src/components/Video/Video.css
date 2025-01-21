@@ -1,0 +1,10 @@
+.video {
+    margin: 8rem auto;
+}
+
+.video video {
+    border: 8px solid var(--color-grey-5);
+    border-bottom: 24px solid var(--color-grey-5);
+    width: 100%;
+    height: auto;
+}

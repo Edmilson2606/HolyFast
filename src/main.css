@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+	--font-primary: "Jost", sans-serif;
+	--font-secondary: "DM Serif Display", serif;
+
+  --color-white: #FFFFFF;
+  --color-black: #000000;
+  --color-primary: #0C70F2;
+  --color-secondary: #1D1D1D;
+  --color-tertiary: #F6F6F6;
+  --color-grey-1: #4D5053;
+  --color-grey-2: #292F36;
+  --color-grey-3: #CCCCCC;
+  --color-grey-4: #ececec;
+  --color-grey-5: #333333;
+  --color-hover: #0056b3;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: var(--font-primary);
+  font-weight: 400;
+  color: var(--color-grey-2);
+  background-color: var(--color-white);
+}
+
+a {
+  text-decoration: none;
+}
+
+/* TYPOGRAPHY */
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+  font-size: inherit;
+  padding: 0;
+  margin: 0;
+  letter-spacing: 2.5px
+}
+
+p {
+  line-height: 150%;
+}
+
+/* GRID */
+.container {
+  box-sizing: border-box;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1140px;
+  position: relative;
+  padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 80%;
+  }
+}

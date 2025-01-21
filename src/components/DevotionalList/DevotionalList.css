@@ -1,0 +1,22 @@
+.container h2 {
+    font-size: 24px;
+    margin: 48px auto;
+}
+
+.devotional-section {
+    margin: 80px auto;
+    display: flex;
+}
+
+.devotional-list {
+    flex: 1;
+    margin-right: 64px;
+}
+
+.devotional-list h3 {
+    font-size: 30px;
+}
+
+.devotional-list p {
+    font-size: 20px;
+}
