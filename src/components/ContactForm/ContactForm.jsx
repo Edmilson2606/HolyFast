@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './ContactForm.css'
 
 // COMPONENT
@@ -37,6 +38,11 @@ function ContactForm() {
                     ></textarea>
                 </section>
                 <section className='form-group form-group--button'>
+                    <Link to="/devotional">
+                        <Button buttonStyle="primary" arrow>
+                            {translate('contact.cta')}
+                        </Button>
+                    </Link>
                     <Button type="submit" buttonStyle="secondary" disabled>
                         {translate('general.send')}
                     </Button>

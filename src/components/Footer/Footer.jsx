@@ -20,7 +20,7 @@ function Footer() {
         <footer className="container">
             <section className="footer-info">
                 
-                <article className="footer-article">
+                {/* <article className="footer-article">
                     <img src={Logo} alt="Logo"/>
 
                     <p>{translate('general.footerLogoText')}</p>
@@ -39,9 +39,9 @@ function Footer() {
                             <img src={InstagramIcon} alt="Instagram" />
                         </a>
                     </nav>
-                </article>
+                </article> */}
 
-                <nav className="footer-nav">
+                {/* <nav className="footer-nav">
                     <h3>{translate('general.pages')}</h3>
                     <ul className="footer-col">
                         <li><Link to="/">{translate('menu.home')}</Link></li>
@@ -58,12 +58,12 @@ function Footer() {
                         <li><p>suporte@divino.com.br</p></li>
                         <li><p>(10) 99999-9999</p></li>
                     </ul>
-                </nav>
+                </nav> */}
 
             </section>
 
             <section className="footer-lang-copy">
-                <p>Copyright © Livio & Edmilson - 2024</p>
+                <p>Copyright © 2025</p>
                 <nav className="footer-langs">
                     <img src={BrazilIcon} alt="Brazil" onClick={() => changeLanguage('br')} />
                     <img src={UsaIcon} alt="USA" onClick={() => changeLanguage('en')} />

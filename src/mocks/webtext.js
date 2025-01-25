@@ -1,15 +1,24 @@
 const translations = {
     "br": {
+        "general": {
+            "required": "Campo obrigatório",
+            "invalidEmail": "Email inválido",
+            "error": "Não foi possível realizar essa ação. Tente novamente mais tarde ou entre em contato conosco.",
+            "footerLogoText": "'Mas tu, quando jejuares, cuida de tua aparência, para que apenas o teu Pai, que vê em secreto, contemple teu jejum.' — Mateus 6:17-18",
+            "pages": "Páginas",
+            "contact": "Contato",
+            "send": "Enviar"
+        },
         "menu": {
             "home": "Início",
             "fasting": "Jejum",
             "devotional": "Devocional",
             "contact": "Contato"
-        },
+        },        
         "hero": {
             "title": "Uma Jornada de Fé e Conexão!",
             "subtitle": "'Quando jejuardes, ungi a cabeça e lavai o rosto, para que o vosso jejum não seja visto pelos homens, mas pelo vosso Pai, que está em secreto.' — Mateus 6:17-18",
-            "cta": "Saiba mais"
+            "cta": "Devocional"
         },
         "fasting": {
             "title": "Planos do Jejum",
@@ -44,7 +53,56 @@ const translations = {
             "list2-15": "22h - oração e dormir.",
             "list2-16": "Repete por mais 2 dias o programa."
         },
+        "contact": {
+            "title": "Adoramos conhecer pessoas e ajudá-las.",
+            "pl1": "Nome *",
+            "pl2": "Email *",
+            "pl3": "Olá estou interessado em..",
+            "successMsg": "Obrigado pela sua mensagem! Entraremos em contato em breve.",
+            "cta": "Devocional",
+        },        
         "devotional": {
+            "month1": "JANEIRO DA FÉ", 
+            "day1": "Dia 1: O Fundamento da Fé",
+            "prayer1": "Ora, a fé é a certeza de coisas que se esperam, a convicção de fatos que se não veem. - Hebreus 11:1",
+            "text1": "Comece o mês de janeiro refletindo sobre o fundamento da fé. A fé não se baseia no que vemos, mas na certeza do que esperamos em Deus. Confie que Ele está trabalhando nos bastidores, mesmo quando não vê ultados imediatos.",
+            "day2": "Dia 2: Fé para Novos Começos",
+            "prayer2": "Ora, a fé é a certeza de coisas que se esperam, a convicção de fatos que se não veem. - Hebreus 11:1",
+            "text2": "'Porque, em Cristo Jesus, nem a circuncisão, nem a incircuncisão têm virtude alguma, mas sim o ser uma nova criatura.' - Gálatas 6:15Que este seja o começo de um novo ano de fé e renovação espiritual. Lembre-se de que, em Cristo, somos feitos novas criaturas. Tenha fé em Deus para guiar seus passos em 2025.",
+            "day3": "Dia 3: Fé como Dom de Deus",
+            "prayer3": "'Porque pela graça sois salvos, por meio da fé; e isto não vem de vós; é dom de Deus.' - Efésios 2:8",
+            "text3": "A fé é um presente de Deus. Agradeça a Ele por esse presente precioso e busque fortalecê-la todos os dias. Ore para que Ele aumente sua fé e a use para Sua glória.",
+            "day4": "Dia 4: Fé que Move Montanhas",
+            "prayer4": "'Porque em verdade vos afirmo que, se alguém disser a este monte: Ergue-te e lança-te no mar, e não duvidar em seu coração, mas crer que se fará o que diz, assim será com ele.' - Marcos 11:23",
+            "text4": "A fé genuína tem o poder de realizar o impossível. Peça a Deus uma fé que possa mover montanhas em sua vida e na vida daqueles ao seu redor.",
+            "day5": "Dia 5: Andando pela Fé",
+            "prayer5": "'Porque andamos por fé e não pelo que vemos.' - 2 Coríntios 5:7",
+            "text5": "Faça uma reflexão sobre como você tem vivido sua vida. Está caminhando pela fé, confiando em Deus em cada passo, ou está se baseando apenas no que vê? Lembre-se de que a fé é a chave para uma jornada abençoada.",
+            "day6": "Dia 6: Fé que Agrada a Deus",
+            "prayer6": "'Ora, sem fé é impossível agradar a Deus; porque é necessário que aquele que se aproxima de Deus creia que ele existe e que é galardoador dos que o buscam.' - Hebreus 11:6",
+            "text6": "Busque agradar a Deus através da sua fé. Creia que Ele está presente, ouça suas orações e recompensará aqueles que O buscam com fé sincera.",
+            "day7": "Dia 7: Fé que Persevera",
+            "prayer7": "'Se tendes fé como um grão de mostarda, direis a este monte: Passa daqui para acolá, e ele passará. Nada vos será impossível.' - Mateus 17:20",
+            "text7": "Lembre-se de que a fé não é apenas sobre o tamanho, mas também sobre a perseverança. Mesmo que sua fé seja pequena, continue acreditando e confiando em Deus. Ele fará o impossível acontecer.",
+            "day8": "Dia 8: Fé em Tempos de Dúvida",
+            "prayer8": "'Disse-lhe Jesus: Se podes! Tudo é possível ao que crê.' - Marcos 9:23",
+            "text8": "Quando a dúvida surgir, lembre-se de que todas as coisas são possíveis para aqueles que creem. Coloque sua fé em Deus, confiando que Ele superará todas as circunstâncias.",
+            "day9": "Dia 9: Fé que Vence o Medo",
+            "prayer9": "'Pela fé, ele peregrinou na terra da promessa, como em terra alheia, habitando em tendas com Isaque e Jacó, herdeiros com ele da mesma promessa.' - Hebreus 11:9",
+            "text9": "A fé pode capacitá-lo a enfrentar o desconhecido com coragem. Não deixe o medo impedir você de viver em plenitude na promessa de Deus.",
+            "day10": "Dia 10: Fé que Enfrenta Desafios",
+            "prayer10": "'Estou convencido de que aquele que começou boa obra em vós há de completá-la até ao Dia de Cristo Jesus.' - Filipenses 1:6",
+            "text10": "Confie que Deus é fiel para completar a boa obra que começou em você. Tenha fé para enfrentar os desafios do dia a dia, sabendo que Ele está ao seu lado.",
+            "day11": "",
+            "prayer11": "",
+            "text11": "",
+            "day12": "",
+            "prayer12": "",
+            "text12": "",
+
+
+            "cta": "Contato",
+
             "date": "Data",
             "title1": "Gênesis 1:1-3",
             "text1-1": "1 - No princípio criou Deus os céus e a terra.",
@@ -54,25 +112,19 @@ const translations = {
             "text2-1": "Aprendemos nesse texto dois princípios. A palavra de Deus tem o poder de criar o que não existe A palavra de Deus coloca em ordem tudo que está em desordem Quando colocamos a palavra de Deus em nossas vidas, ela transforma o ambiente, o ambiente onde há desordem passa a ter ordem, criando um novo ambiente e uma nova vida.",
             "title3": "Oração",
             "text3-1": "SENHOR MEU DEUS E MEU PAI, QUE TUDO NA MINHA VIDA QUE ESTIVER EM DESORDEM, PASSE A TER ORDEM! QUE HAJA NA MINHA VIDA PAZ, QUE HAJA NA MINHA VIDA PROSPERIDADE, QUE HAJA NA MINHA VIDA TUA LUZ, E QUE TODAS AS TREVAS DA MINHA VIDA SEJA DISSIPADA EM NOME DE JESUS, QUE SE CUMPRA EM MIM A TUA VONTADE SENHOR, QUE É BOA PERFEITA E AGRADÁVEL. AMEM!"
-        },
-        "contact": {
-            "title": "Adoramos conhecer pessoas e ajudá-las.",
-            "pl1": "Nome *",
-            "pl2": "Email *",
-            "pl3": "Olá estou interessado em..",
-            "successMsg": "Obrigado pela sua mensagem! Entraremos em contato em breve."
-        },
-        "general": {
-            "required": "Campo obrigatório",
-            "invalidEmail": "Email inválido",
-            "error": "Não foi possível realizar essa ação. Tente novamente mais tarde ou entre em contato conosco.",
-            "footerLogoText": "'Mas tu, quando jejuares, cuida de tua aparência, para que apenas o teu Pai, que vê em secreto, contemple teu jejum.' — Mateus 6:17-18",
-            "pages": "Páginas",
-            "contact": "Contato",
-            "send": "Enviar"
         }
+
     },
     "en": {
+        "general": {
+            "required": "Required Field",
+            "invalidEmail": "Invalid Email",
+            "error": "An error occurred. Please try again later or contact us.",
+            "footerLogoText": "'But when you fast, take care to look after your appearance, so that your fasting may be seen by your Father who sees what is done in secret.' — Matthew 6:17-18",
+            "pages": "Pages",
+            "contact": "Contact",
+            "send": "Send"
+        },
         "menu": {
             "home": "Home",
             "fasting": "Fast",
@@ -82,7 +134,7 @@ const translations = {
         "hero": {
             "title": "A Journey of Faith and Connection!",
             "subtitle": "'But when you fast, take care to show yourself, so that your Father who sees what is done in secret may see your fasting.' — Mateus 6:17-18",
-            "cta": "Learn More"
+            "cta": "Devotional"
         },
         "fasting": {
             "title": "Fasting Plans",
@@ -117,7 +169,56 @@ const translations = {
             "list2-15": "10pm - prayer and sleep.",
             "list2-16": "Repeat the program for 2 more days."
         },
+        "contact": {
+            "title": "We love meeting people and helping them.",
+            "pl1": "Name *",
+            "pl2": "Email *",
+            "pl3": "Hello, I am interested in...",
+            "successMsg": "Thank you for your message! We will get in touch soon.",
+            "cta": "Devotional",
+        },        
         "devotional": {
+            "month1": "January of Faith",
+            "day1": "Day 1: The Foundation of Faith",
+            "prayer1": "Pray, faith is the certainty of things that are expected, the conviction of facts that are not seen. - Hebrews 11:1",
+            "text1": "Begin January reflecting on the foundation of faith. Faith does not rely on what we see, but on the certainty of what we expect in God. Trust that He is working in the stones, even when we don't see immediate results.",
+            "day2": "Day 2: Faith for New Beginnings",
+            "prayer2": "Now faith is the substance of things hoped for, the evidence of things not seen. - Hebrews 11:1",
+            "text2": "'For in Christ Jesus neither circumcision nor uncircumcision has any value, but a new creation.' - Galatians 6:15May this be the beginning of a new year of faith and spiritual renewal. Remember that in Christ we are made new creatures. Have faith in God to guide your steps in 2025.",
+            "day3": "Day 3: Faith as a Gift from God",
+            "prayer3": "'For by grace you have been saved through faith, and that not of yourselves; it is the gift of God.' - Ephesians 2:8",
+            "text3": "Faith is a gift from God. Thank Him for this precious gift and seek to strengthen it every day. Pray that He will increase your faith and use it for His glory.",
+            "day4": "Day 4: Faith That Moves Mountains",
+            "prayer4": "'For truly I tell you, whoever says to this mountain, 'Be removed and be thrown into the sea,' and does not doubt in his heart, but believes that what he says will happen, it will be done for him.' - Mark 11:23",
+            "text4": "Genuine faith has the power to accomplish the impossible. Ask God for a faith that can move mountains in your life and in the lives of those around you.",
+            "day5": "Day 5: Walking by Faith",
+            "prayer5": "'For we walk by faith, not by sight.' - 2 Corinthians 5:7",
+            "text5": "Reflect on how you have been living your life. Are you walking by faith, trusting God with every step, or are you relying solely on what you see? Remember that faith is the key to a blessed journey.",
+            "day6": "Day 6: Faith that Pleases God",
+            "prayer6": "'And without faith it is impossible to please God, for he who comes to God must believe that he exists and that he rewards those who diligently seek him.' - Hebrews 11:6",
+            "text6": "Seek to please God through your faith. Believe that He is present, hears your prayers, and will reward those who seek Him with sincere faith.",
+            "day7": "Day 7: Faith That Perseveres",
+            "prayer7": "'If you have faith as small as a mustard seed, you can say to this mountain, 'Move from here to there,' and it will move. Nothing will be impossible for you.' - Matthew 17:20",
+            "text7": "Remember that faith is not just about size, but also about perseverance. Even if your faith is small, keep believing and trusting in God. He will make the impossible happen.",
+            "day8": "Day 8: Faith in Times of Doubt",
+            "prayer8": "'Jesus said to him, If you can, everything is possible for him who believes.' - Mark 9:23",
+            "text8": "When doubt arises, remember that all things are possible for those who believe. Put your faith in God, trusting that He will overcome every circumstance.",
+            "day9": "Day 9: Faith that Conquers Fear",
+            "prayer9": "'By faith he sojourned in the land of promise, as in a foreign country, dwelling in tents with Isaac and Jacob, the heirs with him of the same promise.' - Hebrews 11:9",
+            "text9": "Faith can empower you to face the unknown with courage. Don’t let fear keep you from living fully in God’s promise.",
+            "day10": "Day 10: Faith That Faces Challenges",
+            "prayer10": "'I am confident of this, that he who began a good work in you will carry it on to completion until the day of Jesus Christ.' - Philippians 1:6",
+            "text10": "Trust that God is faithful to complete the good work He began in you. Have faith to face the challenges of everyday life, knowing that He is by your side.",
+            "day11": "",
+            "prayer11": "",
+            "text11": "",
+            "day12": "",
+            "prayer12": "",
+            "text12": "",
+            
+            "cta": "Contact",
+
+            "date": "Data",
             "title1": "Genesis 1:1-3",
             "text1-1": "1 - In the beginning God created the heavens and the earth.",
             "text1-2": "2 - Now the earth was formless and empty, and darkness was over the surface of the deep, and the Spirit of God was moving over the face of the waters.",
@@ -126,22 +227,6 @@ const translations = {
             "text2-1": "We learn two principles in this text. The word of God has the power to create what does not exist. The word of God puts in order everything that is in disorder. When we put the word of God into our lives, it transforms the environment. The environment where there is disorder becomes orderly, creating a new environment and a new life.",
             "title3": "Prayer",
             "text3-1": "LORD MY GOD AND MY FATHER, MAY EVERYTHING IN MY LIFE THAT IS IN DISORDER, BECOME IN ORDER! MAY THERE BE PEACE IN MY LIFE, MAY THERE BE PROSPERITY IN MY LIFE, MAY THERE BE YOUR LIGHT IN MY LIFE, AND MAY ALL THE DARKNESS OF MY LIFE BE DISPENSED IN THE NAME OF JESUS, MAY YOUR WILL BE DONE IN ME, LORD, WHICH IS GOOD, PERFECT AND PLEASANT. AMEN!"
-        },
-        "contact": {
-            "title": "We love meeting people and helping them.",
-            "pl1": "Name *",
-            "pl2": "Email *",
-            "pl3": "Hello, I am interested in...",
-            "successMsg": "Thank you for your message! We will get in touch soon."
-        },
-        "general": {
-            "required": "Required Field",
-            "invalidEmail": "Invalid Email",
-            "error": "An error occurred. Please try again later or contact us.",
-            "footerLogoText": "'But when you fast, take care to look after your appearance, so that your fasting may be seen by your Father who sees what is done in secret.' — Matthew 6:17-18",
-            "pages": "Pages",
-            "contact": "Contact",
-            "send": "Send"
         }
     }
 }

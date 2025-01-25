@@ -13,7 +13,7 @@ function Hero() {
                 <h1>{translate('hero.title')}</h1>
                 <p>{translate('hero.subtitle')}</p>
             </article>
-            <Link to="/contact">
+            <Link to="/devotional">
                 <Button buttonStyle="primary" arrow>
                     {translate('hero.cta')}
                 </Button>

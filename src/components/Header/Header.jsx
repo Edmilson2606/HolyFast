@@ -26,7 +26,7 @@ function Header() {
             
             <Link to="/"><img src={Logo} alt="Logo" /></Link>
             
-            <section className="header-nav">
+            {/* <section className="header-nav">
                 <nav className={`${isOpen ? 'open' : ''}`}>
                     <Button buttonStyle="unstyled" className="mobile-menu close-btn" onClick={toggleMenu}>
                         X
@@ -44,7 +44,7 @@ function Header() {
                 <Button buttonStyle="secondary" onClick={toggleMenu}>
                     Menu
                 </Button>
-            </section>
+            </section> */}
 
         </header>
     )

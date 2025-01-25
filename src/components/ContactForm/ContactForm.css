@@ -32,7 +32,7 @@
 
 .contact-form .form-group--button {
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
 }
 
 .form-input {
