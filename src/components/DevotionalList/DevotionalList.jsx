@@ -43,7 +43,7 @@ function DevotionalList() {
                 {/* Capa do livro */}
                 {!isOpen && (
                     <div className="cover" onClick={toggleBook}>
-                        <h2>{translate('devotional.month1')}</h2>
+                        {/* <h2>{translate('devotional.month1')}</h2> */}
                     </div>
                 )}
 
