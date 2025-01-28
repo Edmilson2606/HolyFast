@@ -28,7 +28,7 @@
 .cover {
     width: 100%;
     height: 100%;
-    background-image: url('capa.jpg');
+    background-image: url(/capa.jpg);
     background-size: cover;
     /* background: #8b4513; */
     color: #fff;
